@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/cert', function () {
+    return view('welcome');
+});
+
+Route::get('/cert/email', [App\Http\Controllers\CertController::class, 'index']);
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login', function () {
+    return view('welcome2');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
