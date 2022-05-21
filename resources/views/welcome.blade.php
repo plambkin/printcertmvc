@@ -15,11 +15,26 @@
 
 <div class="container">
 
-    <div class="display-3"> Certificate Generator</div>
+    <div class="display-3 align-content-center"> Certificate Generator</div>
 
-    <div class="lead">If you have successfully completed a course with the institute,
-        please enter your email into the box below and a certificate will be emailed to you.
+    <div class="row mb-3">
+        <div class="lead">Many past students have requested a copy of their certificates again.</div>
+
     </div>
+
+    <div class="row mb-3">
+        <div class="lead">If you have completed a course with the British Mindfulness Institute within the last 7 years,
+            we now
+            have a facility where you can obtain a copy of your certificate of completion by email.
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="lead">Please enter the email you used when purchasing your course. We will then check our database
+            and if we find this email, we will email you a certificate representing the course that you completed.
+        </div>
+    </div>
+
 
     <div class="mb-3">
 
@@ -31,7 +46,8 @@
             <form action="/cert/email" method="get">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="jdoe@gmail.com">
+                    <input type="email" class="form-control" name="email" id="exampleInputEmail1"
+                           aria-describedby="emailHelp" placeholder="jdoe@gmail.com">
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
 
