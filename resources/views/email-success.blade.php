@@ -21,7 +21,9 @@
     <div class="mb-3>"></div>
 
     <div class="lead">
-        Please check your email within the next 15 minutes.
+        Please check your email within the next 15 minutes for an email from
+        mind@britishmindfulnessinstitute.co.uk. Remember to also check your spam
+        folder as some emails may end up in spam.
     </div>
 
 
