@@ -26,6 +26,8 @@
         folder as some emails may end up in spam.
     </div>
 
+    <a class="btn mb-3 mt-3 btn-primary" href="/" role="button">Back</a>
+
 
 </div>
 
