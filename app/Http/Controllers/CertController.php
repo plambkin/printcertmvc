@@ -26,6 +26,12 @@ class CertController extends Controller
             // We are in trouble
             return view('email-failed');
 
+        DB::table('receipts')
+            ->insert([
+                'email' => $email,
+                'email_created_at' => date("Y-m-d H:i:s", strtotime('now'))
+            ]);
+
         // Get the name of the Student
         $firstName = DB::table('students')->where('email', $email)->value('firstName');
         $lastName = DB::table('students')->where('email', $email)->value('lastName');
