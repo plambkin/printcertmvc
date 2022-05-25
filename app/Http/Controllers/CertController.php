@@ -59,7 +59,7 @@ class CertController extends Controller
 
         $p = new SendMail();
 
-        $p->send();
+        $p->send($email);
 
         return view('email-success');
 
