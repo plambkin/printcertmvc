@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\Mail;
 
 class SendMail
 {
-    public function send() {
+    public function send($email) {
 
-        $to_email = "plambkin100@gmail.com";
+        $to_email = $email;
 
         Mail::to($to_email)->send(new CertEmail);
 
